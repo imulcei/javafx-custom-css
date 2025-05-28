@@ -5,18 +5,26 @@
 }
 
 .header-section {
-    -fx-background-color: rgb(128, 19, 0);
+    -fx-background-color: rgb(0, 128, 128);
+    -fx-pref-height: 100px;
+    -fx-padding: 10px;
 }
 
 .header-section Label {
     -fx-text-fill: #ffffff;
-    -fx-padding: 10px;
+    -fx-padding: 15px;
 }
 
 #account {
-    -fx-text-fill: #c6dc76;
+    -fx-text-fill: #ffffff;
     -fx-font-size: 16px;
     -fx-cursor: hand;
+    -fx-background-color: transparent;
+}
+
+#header-text {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
 }
 
 .sidebar-section {
@@ -24,7 +32,7 @@
     -fx-pref-width: 200px;
     -fx-max-width: 200px;
     -fx-border-width: 1;
-    -fx-border-color: transparent #E8E8E8 transparent transparent;
+    -fx-border-color: transparent #E8E8E8 #E8E8E8 transparent;
 }
 
 /* Permet de sélectionner tous les "Label" contenus dans l'élément ayant pour class "sidebar-section" */
@@ -32,10 +40,15 @@
     -fx-min-width: 200px;
     -fx-pref-width: 200px;
     -fx-max-width: 200px;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+    -fx-font-size: 18px;
+    -fx-padding: 10px 20px;
 }
 
 .content-section {
     -fx-wrap-text: true;
+    -fx-border-color: transparent transparent #E8E8E8 transparent;
+    -fx-padding: 10px 20px;
 }
 
 #content-header {
@@ -47,4 +60,9 @@
 #content {
     -fx-wrap-text: true;
     -fx-font-size: 16px;
+}
+
+#footer-section {
+    -fx-pref-height: 50px;
+    -fx-alignment: center;
 }

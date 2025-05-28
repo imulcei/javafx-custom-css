@@ -73,4 +73,7 @@
             </children>
         </HBox>
     </bottom>
+    <stylesheets>
+        <URL value="@custom.css"/>
+    </stylesheets>
 </BorderPane>
